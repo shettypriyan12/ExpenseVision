@@ -1,0 +1,41 @@
+.reports {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.reports h1 {
+    margin: 2% 1% 1%;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.totalAll{
+    padding: 21px;
+    border-radius: 10px;
+    background-color: var(--frontback);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    margin: 0 0 20px;
+}
+
+.totalAll h2{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    text-transform: capitalize;
+}
+
+.totalCard{
+    padding: 21px;
+    border-radius: 10px;
+    /* background-color: var(--frontback); */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.totalCard p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--theme1);
+}

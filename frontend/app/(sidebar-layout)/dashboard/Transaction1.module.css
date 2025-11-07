@@ -1,0 +1,38 @@
+.transaction1{
+    padding: 21px;
+    border-radius: 10px;
+    background-color: var(--frontback);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    margin: 0 0 20px;
+}
+
+/* .transCards{}
+
+.card{}
+
+
+.cleft{} */
+
+.cleft svg{
+    font-size: 100px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: var(--background);
+
+}
+
+.clrght h2{
+    color: var(--theme1);
+}
+.clrght p,
+.cright p{
+    color: var(--foreground);
+}
+
+
+.transbtn{
+    color: var(--foreground);
+    background-color: var(--background);
+    margin: 14px 0 0;
+    padding: 10px 0;
+}

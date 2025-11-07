@@ -1,0 +1,26 @@
+
+.budgetForm{
+    padding: 21px;
+    border-radius: 10px;
+    background-color: var(--frontback);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    margin: 0 0 20px;
+}
+
+.budgetForm h2{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    text-transform: capitalize;
+}
+
+.selectable div{
+    color: var(--foreground);
+    background-color: var(--frontback) ;
+}
+
+.selectable:hover,
+.selectable:focus
+{
+    background-color: var(--background) ;
+}   

@@ -1,0 +1,148 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--frontback);
+    color: var(--foreground);
+    padding: 8px 26px 16px;
+    transition: width 0.3s ease;
+    width: 250px;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.collapsed {
+    width: 100px;
+    /* display: none; */
+}
+
+.mobileSidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 230px;
+    padding: 8px 26px;
+    background-color: var(--frontback);
+    color: var(--foreground);
+    transition: transform 0.3s ease;
+    z-index: 100;
+    transform: translateX(-100%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo h1 {
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to right, #5e5ab6, #5751c9, #4E46E5, #3D37C7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo span {
+    padding: 4px 10px;
+    border-radius: 50%;
+    color: white;
+    background: linear-gradient(#706ae9b3, #5a54d4b3, #453fc2b3, #3a33b3b3);
+}
+
+.toggleButton {
+    position: absolute;
+    right: -28px;
+    top: -10px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    padding: 1px 6px;
+    background-color: #4e46e599;
+    background-color: transparent;
+    color: #544bf8;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.menu a ,
+.menu button{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.active {
+    color: white !important;
+    background-color: #4e46e5b3 !important;
+}
+
+.menu a:hover ,
+.menu button:hover {
+    background-color: #4e46e5b3 !important;
+    color: white;
+}
+
+.menu a:hover svg ,
+.menu button:hover svg {
+    color: white;
+}
+
+
+.mobileOpen {
+    transform: translateX(0);
+}
+
+.mobileClosed {
+    transform: translateX(-100%);
+}
+
+.mobileOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 50;
+}
+
+/* @media (max-width :324.98px) {}
+
+@media (min-width :325px) and (max-width :424.98px) {}
+
+@media (min-width :425px) and (max-width: 575.98px) {
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 2560px) {} */
+

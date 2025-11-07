@@ -1,0 +1,7 @@
+# Root
+node_modules
+.env
+*.log
+doc.txt
+.env.production
+.next

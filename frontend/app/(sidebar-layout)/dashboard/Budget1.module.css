@@ -1,0 +1,12 @@
+
+.budget1{
+    padding: 21px;
+    border-radius: 10px;
+    background-color: var(--frontback);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    margin: 0 0 20px;
+}
+
+.budgetCards{
+    margin: 0;
+}

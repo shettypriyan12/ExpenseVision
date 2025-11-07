@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@layer reset, base, components, utilities;
+
+
+@layer base{
+  :root {
+  --background: #f3f4f6;
+  --foreground: #374151;
+  --frontback: white;
+  --frontback1: #eef2ff;
+  --theme1: black;
+  --theme2: #1f2937 ;
+  --theme3: #4338ca ;
+  --theme4: #3730a3;
+  --theme5: #c8ffd0;
+  --theme6: #ffe5e5;
+  --theme7: #c7d2fe;
+  --icon1: #030712;
+  --iconbg: #f3f4f6;
+  --border1: #8b8b8bdc;
+  --border2: #8b8b8bdc;
+}
+
+.dark {
+  --background: #111827;
+  --foreground: #ededed;
+  --frontback: #1f2937e6;
+  --frontback1: #312e8133;
+  --theme1:white;
+  --theme2:white;
+  --theme3: #c7d2fe;
+  --theme4: #A5B4F3;
+  --theme5: #1d4d23;
+  --theme6: #ff080041;
+  --theme7: #574dc741;
+  --icon1: #312e8162;
+  --iconbg: #1f2937e6;
+  --border1: #eeebebde;
+  --border2: #8b8b8bdc;
+}
+
+.green {
+  color: #34D399;
+}
+
+.red {
+  color: #FF0800;
+}
+
+.base {
+  color: #4e46e5b3;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  color: var(--foreground);
+  font-family: "Fredoka", sans-serif;
+}
+
+a {
+  color: var(--foreground);
+  text-decoration: none;
+}
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "DM Sans", sans-serif;
+}
+
+
+/* SCROLL BAR CODE */
+::-webkit-scrollbar {
+  width: 3px;
+  /* Adjust width */
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  /* Scrollbar track (background) */
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #4e46e5b3;
+  /* Scrollbar thumb (the draggable part) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4e46e5b3;
+  /* On hover */
+}
+
+
+@media (max-width :324.98px) {}
+
+@media (min-width :325px) and (max-width :424.98px) {}
+
+@media (min-width :425px) and (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 2560px) {}

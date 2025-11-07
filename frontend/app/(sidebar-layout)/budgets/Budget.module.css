@@ -1,0 +1,63 @@
+.budgets {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.budgets h1 {
+    margin: 2% 1% 1%;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.transbtn {
+    background-color: var(--theme1);
+    /* color: var(--background); */
+    padding: 7px 12px;
+}
+
+.budgetInfo {
+    padding: 21px;
+    border-radius: 10px;
+    background-color: var(--frontback);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    margin: 0 0 20px;
+}
+
+.budgetInfo h2 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+}
+
+.totalAll{
+    padding: 21px;
+    border-radius: 10px;
+    background-color: var(--frontback);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    margin: 0 0 20px;
+}
+
+.totalAll h2{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    text-transform: capitalize;
+}
+
+.totalCard{
+    padding: 21px;
+    border-radius: 10px;
+    /* background-color: var(--frontback); */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.totalCard p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--theme1);
+}
