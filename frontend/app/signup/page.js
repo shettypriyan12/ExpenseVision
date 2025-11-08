@@ -72,7 +72,7 @@ export default function SignUp() {
                 </label>
 
                 <div className={`${c.left}`}>
-                    <Link href={`/`} className={c.logo}>
+                    <Link href={`/login`} className={c.logo}>
                         <span>E</span>
                         <h1>ExpenseVision</h1>
                     </Link>

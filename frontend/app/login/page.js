@@ -60,7 +60,7 @@ export default function Login(){
                 </label>
 
                 <div className={`${c.left}`}>
-                    <Link href={`/`} className={c.logo}>
+                    <Link href={`/login`} className={c.logo}>
                         <span>E</span>
                         <h1>ExpenseVision</h1>
                     </Link>
@@ -155,7 +155,7 @@ export default function Login(){
                                     )} */}
 
                                     <div className={c.directSignUp}>
-                                        <Link href={`/signup`}>Don't have an account? <span>Sign up</span></Link>
+                                        <Link href={`/signup`}>Don&apos;t have an account? <span>Sign up</span></Link>
                                     </div>
 
                                 </Form>

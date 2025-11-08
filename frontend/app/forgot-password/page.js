@@ -58,14 +58,14 @@ export default function ForgotPassword() {
                 </label>
 
                 <div className={`${c.left}`}>
-                    <Link href={`/`} className={c.logo}>
+                    <Link href={`/login`} className={c.logo}>
                         <span>E</span>
                         <h1>ExpenseVision</h1>
                     </Link>
 
                     <div className={`${c.formcontent}`} data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" data-aos-duration="200">
                         <h1>Forgot your password?</h1>
-                        <p>Enter your email and we'll send you a link to reset your password</p>
+                        <p>Enter your email and we&apos;ll send you a link to reset your password</p>
 
                         {messageSent ? (
                             <>
@@ -75,7 +75,7 @@ export default function ForgotPassword() {
                                         <h3 className='font-[600]'>Check your email</h3>
                                     </div>
                                     <div>    
-                                        <p>We've sent a password reset link to your email address.</p>
+                                        <p>We&apos;ve sent a password reset link to your email address.</p>
                                         <p>Please check your inbox and follow the instructions.</p>
                                     </div>
                                 </div>
